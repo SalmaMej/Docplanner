@@ -1,0 +1,255 @@
+body {
+  font-family: arial;
+  color: #ababab;
+  font-size: 16px;
+}
+h1 {
+  color: #00b39b;
+  font-size: 34px;
+  font-weight: lighter;
+}
+h2 {
+  color: #00b39b;
+  font-size: 26px;
+  font-weight: lighter;
+}
+h6 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 20px 0 10px 40px;
+  color: #ffffff;
+}
+h6 + p {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 0;
+}
+#topnav {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.97);
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 5px #ababab2c;
+}
+#topnav img {
+  width: 270px;
+  padding: 15px 450px 10px 0;
+}
+#topnav ul {
+  margin-right: 10px;
+}
+#topnav ul li {
+  display: inline;
+  font-size: 15px;
+  padding: 0 20px 0 0;
+}
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+a:hover {
+  color: #00b39b;
+}
+#menu {
+  position: relative;
+}
+#dropdown {
+  display: none;
+  position: absolute;
+  width: 180px;
+  height: 220px;
+}
+#menu:hover #dropdown {
+  display: block;
+  margin-left: 30px;
+  margin-top: 5px;
+  padding-top: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #ababab60;
+}
+#dropdown li {
+  display: block !important;
+  margin-left: -25px;
+  padding-bottom: 30px !important;
+}
+#section1-div1 {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.grid1 {
+  display: flex;
+  width: 70%;
+  color: #747474;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 28px;
+}
+.grid-col {
+  margin: 0 5px 0 0;
+}
+.grid2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.grid-col2 {
+  background-color: #00ccb1;
+  width: 35%;
+  height: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+.grid-col3 {
+  background-color: #3d83df;
+  width: 35%;
+  height: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+#img-select {
+  display: flex;
+}
+#img1,
+#img2 {
+  width: 400px;
+}
+#img2 {
+  margin-left: 190px;
+}
+#Country {
+  margin-left: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+}
+#text-logos {
+  display: flex;
+  margin: 40px 0 40px 190px;
+}
+#text {
+  width: 20%;
+}
+#logos {
+  margin-right: 220px;
+  padding-left: 60px;
+}
+.listitem {
+  display: inline-block;
+  margin-left: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.minilogo {
+  width: 20px;
+  margin-right: 10px;
+}
+.grid3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+#grid3-col {
+  height: 600px;
+  width: 30%;
+  padding: 30px 150px 10px 180px;
+}
+#lightgreen {
+  background-color: #dff8f7;
+}
+#img_logo_hidden {
+  margin-top: 80px;
+  margin-left: -150px;
+}
+.white-box {
+  background-color: white;
+  display: inline-flex;
+  border-radius: 5px;
+  width: 180px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+.white-box:first-child,
+.white-box:nth-child(3) {
+  transform: translateY(30px);
+}
+.white-box p {
+  font-size: 12px;
+}
+#center {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#center p {
+  font-size: 14px;
+  color: #747474;
+  line-height: 28px;
+}
+#images {
+  text-align: center;
+  justify-content: space-between;
+}
+.imgbox {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 320px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid #f3f3f3;
+}
+.img {
+  border-radius: 10px;
+  width: 320px;
+}
+.imgbox:hover {
+  box-shadow: 20px 20px 40px 20px #ababab2c;
+}
+.txtbt {
+  display: inline-flex;
+}
+.txtbt p {
+  font-size: 20px;
+  color: #747474;
+  width: 150px;
+}
+button {
+  margin: 20px 0 0 20px;
+  background-color: #3d83df;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  width: 120px;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #f3f3f3;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+footer a {
+  color: #3d83df;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #3d83df;
+}
